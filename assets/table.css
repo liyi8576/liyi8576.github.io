@@ -1,0 +1,37 @@
+.common-table {
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+}
+.common-table caption{text-align: right;}
+.common-table tr th{
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  color: #000;
+  border: 1px solid #dde7f1;
+  border-left: none;
+  border-right: 1px solid #efefef;
+  background: #fafcff;
+  font-weight: bold;
+}
+.common-table tr th:last-child ,.common-table tbody tr td:last-child{
+  border-right: none;
+  border-left: none;
+}
+
+.common-table tbody tr td {
+  /* position: relative; */
+  height: 36px;
+  line-height: 20px;
+  color: #666;
+  background: #fff;
+  border-right: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 0 5px;
+}
+.common-table tbody tr:nth-child(odd) td , .calendar-table tr:nth-child(odd) td{
+  background: #fbfbfb;
+}
